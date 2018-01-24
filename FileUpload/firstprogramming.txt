@@ -1,0 +1,18 @@
+import java.util.Scanner;
+	class MainRunner
+	{
+	public static void main(String args[])
+		{
+		System.out.println("Welcome");
+}		
+Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your Integer");
+		int x=sc.nextInt();
+
+		if(x>=0)
+		System.out.println(x+ " is positive Integer");
+		else
+		System.out.println(x+ " is negative Integer");
+	System.out.println("Thank you");
+		
+}
